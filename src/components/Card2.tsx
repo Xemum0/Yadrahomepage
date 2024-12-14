@@ -58,7 +58,7 @@ function Card2({
       </div>
       <p className='slogan'>{company_slogan}</p>
       
-      <div className='verified'>
+      <div className='verified20'>
         <span>Verified</span>
         <FaThumbsUp className="like-icon" />
       </div>

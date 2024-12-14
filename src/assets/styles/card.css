@@ -78,14 +78,14 @@
   color: rgb(79, 79, 253);
 }
 
-.verified {
+.verified20 {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
 }
 
-.verified span {
+.verified20 span {
   margin-top: 3px;
   font-size: 10px;
   font-weight: bolder;

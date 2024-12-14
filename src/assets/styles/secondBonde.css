@@ -38,6 +38,7 @@
   cursor: pointer; /* Pointer cursor on hover */
   transition: background-color 0.3s ease;
   width: 160px;
+  margin-left: 2.5rem;
 
 }
 .sentence button:hover{
