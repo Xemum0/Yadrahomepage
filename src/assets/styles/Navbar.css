@@ -1,3 +1,7 @@
+.card-link {
+    text-decoration: none; /* Remove underlining */
+    color: inherit; /* Use the parent element's color */
+  }
 .Navbar {
     display: flex;
     width: 100%;
