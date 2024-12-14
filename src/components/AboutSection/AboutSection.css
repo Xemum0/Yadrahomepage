@@ -1,0 +1,36 @@
+.about-section {
+    width: 70.31%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .about-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .about-section p {
+    display: flex;
+    align-items: center;
+    gap:10px;
+    text-align: start;
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .contact p {
+    margin: 5px 0;
+  }
+  
+  .contact a {
+    color: #0077b6;
+    text-decoration: none;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  

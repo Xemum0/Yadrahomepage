@@ -1,0 +1,69 @@
+.fifth-bonde {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+.fifth-bonde-header h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.fifth-bonde-header p {
+  font-size: 18px;
+  color: #1e1e1e80;
+  margin-bottom: 30px;
+}
+
+.fifth-bonde-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.feature {
+  text-align: center;
+  max-width: 300px;
+}
+
+.icon-wrapper {
+  background-color: #c1dcdc;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+}
+
+.feature-icon {
+  font-size: 32px;
+  color: #1e1e1e;
+}
+
+.feature h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 16px;
+  color: #1e1e1e80;
+  line-height: 1.5;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .fifth-bonde-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    margin-bottom: 30px;
+  }
+}

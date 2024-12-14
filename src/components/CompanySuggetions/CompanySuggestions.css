@@ -1,0 +1,92 @@
+.suggestions-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+    width: 70.31%;
+  }
+  
+  .suggestions-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #333;
+  }
+  
+  .company-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .company-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 12px;
+  }
+  
+  .company-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
+  .company-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    margin-right: 12px;
+  }
+  
+  .company-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .company-name {
+    margin-left: 2px;
+    text-align: start;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0073e6;
+    margin-bottom: 4px;
+  }
+  
+  .company-rating {
+    font-size: 14px;
+    color: #f8b400;
+    margin-bottom: 4px;
+  }
+  
+  .company-reviews {
+    margin-left: 20px;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 4px;
+  }
+  
+  .company-status {
+    margin-left: 5px;
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .suggestion-footer {
+    font-size: 12px;
+    color: #777;
+    margin-top: 16px;
+  }
+  
+  .footer-link {
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,114 @@
+.Name{
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 35px;
+  background-color: white;
+  width:247px;
+  color: black;
+  border:1px solid;
+  border-color: transparent;
+  border-radius: 46px;
+  font-size: 18px;
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.274);
+
+}
+
+.Name:focus{
+  border-color: #4A3AFF;
+  color: #4A3AFF;
+
+}
+
+.Radio{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+
+.Radio:checked ~ .radio-label::before {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+
+.Date{
+  color: black;
+}
+
+.showName{
+  width: 357px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.shareExp{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 10px;
+}
+
+.res1{
+  grid-template-columns: repeat(1,1fr);
+
+}
+
+.btnSubmit{
+  width:200px;
+  height:48px;
+  border-radius:86px;
+  font-family: poppins;
+  border: 0;
+  background-color:#C1DCDC;
+  outline: none;
+  cursor: pointer;
+}
+
+
+
+.btnSubmit:hover{
+  color: #ffffff;
+  background-color: #588b8b;
+}
+
+.labelStyle {
+  color: black;
+}
+
+.avatarOfUser{
+    width: 80px;
+    height: 80px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    margin: 10px;
+}
+  
+.shareInt{
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 16px auto;
+  width: 90%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.hidden{
+  display: none;
+  height: 0;
+  opacity: 0;
+  overflow: hidden; 
+}
+
+.visible{
+  opacity: 1;
+  transition: height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+
+}
+
+#formReview{
+  display: inline-block;
+  width: 100%;
+  height:"fit-content" ,
+}

@@ -1,0 +1,207 @@
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.inline-text p {
+  display: inline; /* Ensure the text flows inline */
+  margin-right: 20px; /* Remove default margins to align properly */
+}
+
+.login2 {
+  color:#91B3B5; /* Optional: Add styling for 'Log in' */
+  cursor: pointer; /* Make it look clickable */
+
+}
+
+
+.popup-container {
+  display: flex;
+  width: 804px;
+  height: 605px;
+  position: relative;
+  background: white;
+  border-radius: 62px;
+  overflow: hidden; /* Ensure content doesn't spill outside the rounded edges */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+.popup-left {
+  width: 50%; /* Take up half the width */
+  background-color: #A7CCCE; /* Light teal background */
+  padding: 60px;
+  display: flex;
+  
+  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.popup-right {
+  width: 50%; /* Take up half the width */
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 62px;
+}
+.popup-left h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333333; /* Dark gray */
+}
+
+.popup-left p {
+  font-size: 16px;
+  color: #666666; /* Medium gray */
+}
+
+.popup-left .popup-image {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 300px;
+}
+
+
+.error{
+  color: red;
+}
+
+.popup-right h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000000; /* Black */
+}
+
+.popup-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.popup-right label {
+  font-size: 14px;
+  color: #333333; /* Dark gray */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.popup-right input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc; /* Light gray border */
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.popup-right button[type="submit"] {
+  background-color: #A7CCCE; /* Light teal */
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.popup-right button[type="submit"]:hover {
+  background-color: #88c0a7; /* Slightly darker teal */
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #666666; /* Medium gray */
+}
+
+.close-button:hover {
+  color: #000000; /* Black */
+}
+.password-input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-input {
+  width: 100%;
+  padding-right: 2rem; /* Space for the eye icon button */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 36px;
+}
+
+.password-toggle-button {
+  position: absolute;
+  right: 0.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #aaa;
+}
+
+.password-toggle-button:hover {
+  color: #000;
+}
+
+.eye-icon {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 630px) {
+  .popup-container {
+    flex-direction: column; /* Stack items vertically */
+    border-radius: 30px; /* Adjust border-radius for smaller screens */
+  }
+
+  .popup-left {
+    display: none; /* Hide the left side on smaller screens */
+  }
+
+  .popup-right {
+    width: 100%; /* Take up full width */
+    padding: 20px; /* Reduce padding */
+  }
+
+  .popup-right h3 {
+    font-size: 18px; /* Adjust heading size */
+  }
+
+  .popup-right button[type="submit"] {
+    font-size: 14px; /* Adjust button font size */
+  }
+
+  .close-button {
+    font-size: 18px; /* Adjust close button size */
+  }
+}
+
+@media (max-width: 480px) {
+  .popup-right input {
+    padding: 8px; /* Reduce input padding */
+    font-size: 12px; /* Reduce font size */
+  }
+
+  .popup-right button[type="submit"] {
+    padding: 10px; /* Adjust button padding */
+  }
+}

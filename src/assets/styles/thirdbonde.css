@@ -1,0 +1,134 @@
+.third {
+  background-color: #C1DCDC;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Allows wrapping for smaller screens */
+  margin-bottom: 15px;
+  gap: 20px; /* Adds space between items */
+}
+
+.firsttype,
+.secondtype,
+.thirdtype {
+  position: relative;
+  top: 0; /* Reset for smaller screens */
+  flex: 1 1 calc(33.333% - 20px); /* Makes items take one-third of the width */
+  max-width: 300px; /* Optional: Limit max width */
+}
+.firsttype,.thirdtype{
+  top: -40px;
+}
+.secondtype{
+  top: 20px;
+}
+
+.center_button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.center_button p {
+  color: #1E1E1E80;
+  text-align: center; /* Align text center for better responsiveness */
+}
+
+.explore_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  gap: 10px;
+}
+
+.background_column {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px;
+  background-color: #C1DCDC;
+}
+
+.explore_button:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
+
+.arrow-icon {
+  font-size: 16px; /* Icon size */
+  vertical-align: middle; /* Align with text */
+}
+
+.thirdbondetitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.thirdbondetitle h1 {
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.thirdbondetitle p {
+  font-size: 16px;
+  margin-top: 0px;
+  color: #1E1E1E80;
+  text-align: center;
+}
+
+/* General styling for images in the cards */
+.typecard img {
+  width: 100%; /* Default full width */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 300px; /* Optional: Limit max size */
+}
+
+/* Media Queries for Smaller Screens */
+@media screen and (max-width: 768px) {
+  .third {
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center; /* Center align items */
+  }
+
+  .firsttype,
+  .secondtype,
+  .thirdtype {
+    flex: 1 1 100%; /* Each card takes full width */
+    max-width: none; /* Remove max width for smaller screens */
+    margin-bottom: 20px; /* Add space between stacked items */
+    top: 0px;
+  }
+
+  /* Reduce the size of images for small screens */
+  .typecard img {
+    width: 70%; /* Reduce image width to 70% of the container */
+    max-width: 200px; /* Set a max size for smaller screens */
+  }
+
+  .thirdbondetitle h1 {
+    font-size: 28px; /* Adjust heading size */
+  }
+
+  .thirdbondetitle p {
+    font-size: 14px;
+  }
+
+  .explore_button {
+    font-size: 18px; /* Adjust button font size */
+    padding: 10px 10px; /* Adjust padding */
+  }
+
+  .arrow-icon {
+    font-size: 14px; /* Adjust icon size */
+  }
+}

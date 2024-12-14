@@ -1,0 +1,79 @@
+.location-list {
+  width: 70.31%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 30px;
+}
+
+.view-all-button {
+  background-color: #C1DCDC;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.view-all-button:hover {
+  background-color: #C1DCDC;
+}
+
+.bluredBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* Adjust for scrollbar width */
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.locationExpanded {
+  z-index: 1001;
+  width: 25%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 30px;
+  max-height: 80%;
+  overflow-y: auto;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.locationExpanded::-webkit-scrollbar {
+  width: 8px;
+}
+
+.locationExpanded::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 8px;
+}
+
+.locationExpanded::-webkit-scrollbar-thumb {
+  background: #4A3DE5;
+  border-radius: 8px;
+}
+
+.locationExpanded::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

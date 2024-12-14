@@ -1,0 +1,31 @@
+.infosComponent{
+    width: auto;
+    display: inline-flex;
+    height: 42.22px;
+    background-color: #E8F6F3;
+    border-radius: 50px;
+    margin-right: 21px;
+    margin-bottom: 7px;
+}
+
+.infosComponent .logo{
+    padding-left: 12px;
+    display: flex;
+    width: 17%;
+    align-items: center;
+    justify-content: center;
+}
+
+.infosComponent .infos {
+
+    width: auto;
+    white-space: nowrap;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 15px;
+    color: #2C3E50;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}

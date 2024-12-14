@@ -1,0 +1,267 @@
+#root {
+    overflow: hidden;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+.profileCardContainer {
+    width: 90.21vw;
+    height: 285px;
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.295);
+    margin-top: 90px;
+    border-radius: 16px;
+}
+
+.logoContainer {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoRoundedContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 66.24%;
+    aspect-ratio: 1/1;
+    border: solid;
+    border-radius: 50%;
+    border-color: #C1DCDC;
+}
+
+.logoRoundedContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.companyInfosContainer {
+    position: relative;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.firstRow {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 25%;
+}
+
+.firstRow .companyName {
+    font-size: 28px;
+    color: black;
+    display: flex;
+    align-items: center;
+    width: 53.24%;
+}
+
+.verified {
+    margin-right: 2.75%;
+    display: flex;
+    height: 42.22px;
+    width: 111.45px;
+    margin-bottom: 5px;
+    background-color: #00C853;
+    border-radius: 50px;
+}
+
+.checkIcon {
+    padding-right: 5px;
+    width: 34%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.verifiedText {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.verified2 {
+    position: absolute;
+    right: 50px;
+    display: flex;
+    margin-bottom: 5px;
+    height: 42.22px;
+    width: 111.45px;
+    background-color: #00C853;
+    border-radius: 50px;
+}
+
+.premium2 {
+    transform-origin: right;
+    position: absolute;
+    right: 20px;
+    display: flex;
+    height: 42.22px;
+    width: 179.66px;
+    background: linear-gradient(90deg, #FFD600, #FFA000);
+    border-radius: 50px;
+}
+
+.premium {
+    margin-left: 2.75%;
+    display: flex;
+    height: 42.22px;
+    width: 179.66px;
+    background: linear-gradient(90deg, #FFD600, #FFA000);
+    border-radius: 50px;
+}
+
+.crownIcon {
+    padding-right: 5px;
+    width: 22.7%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.premiumText {
+    padding-top: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+
+.secondRow {
+    position: relative;
+    display: flex;
+    align-items: start;
+    height: 15%;
+}
+
+.secondRow .webIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+    padding-top: 5px;
+}
+
+
+.secondRow .webLink a {
+    color: #F50057;
+}
+
+.containerU {
+    display: none;
+    width: 70%;
+}
+
+.thirdRow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res1 {
+    height: 38%;
+}
+
+.res2 {
+    max-width: 40%;
+}
+
+.res3 {
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 400px;
+}
+
+.res4 {
+    height: 60%;
+    width: 100%;
+}
+
+.res4 .logoRoundedContainer {
+    margin: 15px;
+    height: 70%;
+    width: auto;
+    aspect-ratio: 1/1;
+}
+
+.res5 {
+    justify-content: start;
+}
+
+.res6 {
+    position: absolute;
+    bottom: 20px;
+}
+
+.res7 {
+    min-width: 100%;
+}
+
+.res8 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res9 {
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.res10 {
+    width: 70%;
+}
+
+.res11 {
+    position: absolute;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+    right: 0;
+    bottom: 50px;
+}
+
+.res12 {
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 320px;
+}
+.res15{
+    position: absolute;
+    bottom: 10px;
+}
+
+.r {
+    flex-direction: column;
+}
+
+.adjust {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}

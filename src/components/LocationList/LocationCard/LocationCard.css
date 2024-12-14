@@ -1,0 +1,31 @@
+.location-card {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    margin-bottom: 5px;
+    padding: 0px;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .location-card:last-child {
+    border-bottom: none;
+  }
+  
+  .location-name {
+    text-align: start;
+    color: #205CD4;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .location-address {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .location-reviews {
+    font-size: 14px;
+    color: #333;
+  }
+  
